@@ -1,0 +1,62 @@
+/**
+ * This is the CSS for App.js
+ *
+ * Authors:
+ * Nicholas Prussen
+ */
+
+.first-section {
+  width: 100%;
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: 1fr;
+  padding: 1rem 0;
+}
+
+h1 {
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.first-section-col-1 {
+  width: 100%;
+}
+
+.graph {
+  width: 100%;
+  height: 400px;
+  background-color: grey;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.second-section {
+  padding: 1rem 0;
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.dropdown-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Dropdown-root {
+  width: 6rem;
+}
+
+h6 {
+  padding: 0 1rem;
+}
+
+.react-json-view {
+  padding: 2rem 0;
+}
+
+.spacer-section {
+  height: 25rem;
+  width: 100%;
+}
