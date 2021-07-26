@@ -11,6 +11,10 @@ import { Container, Navbar, Card, ListGroup } from 'react-bootstrap';
 import Select from 'react-select';
 import ReactJson from 'react-json-view';
 import { Bar }  from 'react-chartjs-2';
+//import { Scatter } from 'react-chartjs-2';
+/* Note: Use this in the components section 
+<Scatter data = {this.state.chartData.data} options={this.state.chartData.options} />
+*/
 import 'react-dropdown/style.css';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -337,7 +341,7 @@ class App extends Component {
               <Bar data={this.state.chartData.data} options={this.state.chartData.options} />
             </div>
           </div>
-          <h1>Notable Runs</h1>
+          <h1>Run Summary</h1>
           <div className="second-section">
             <Card>
               <Card.Body>
@@ -374,7 +378,7 @@ class App extends Component {
             </Card>
           </div>
           <div className="third-section">
-            <h1>All Runs Found</h1>
+            <h1>Run Details</h1>
             <div className="bottom-docs">
               {items}
             </div>
